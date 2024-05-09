@@ -6,13 +6,16 @@ body {
 }
 
 #cabeca {
+    position: fixed; /* Define a posição fixa */
+    top: 0; /* Coloca o cabeçalho no topo da página */
+    width: 100%; /* Define a largura total */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px ;
-    background-color: #333;
+    padding: 15px 20px;
+    background-color: #006cb4;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
 }
 
 #logo {
@@ -44,7 +47,7 @@ body {
     background-color: #fff;
     border-radius: 5px;
     overflow: hidden;
-    margin-top: 20px; /* Adiciona espaço acima */
+    margin-top: 4px; /* Adiciona espaço acima */
 }
 
 #txtBusca {
@@ -77,7 +80,7 @@ body {
     background-color: #f44336;
     color: #fff;
     border: none;
-    padding: 12px 20px;
+    padding: 8px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
