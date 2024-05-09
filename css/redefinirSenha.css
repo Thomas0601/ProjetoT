@@ -13,6 +13,35 @@ body {
     background-color: #f0f0f0;
     
 }
+#cabeca {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #006cb4;
+    color: #fff;
+    font-size: 18px;
+    z-index: 1000;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.container {
+    width: 50%;
+    max-width: 400px; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+    max-height: unset; 
+    overflow: hidden; 
+}
 
 .bg-box {
     position: fixed;
@@ -48,7 +77,7 @@ label {
 
 input[type="text"],
 input[type="password"] {
-   width: 100%;
+    width: 100%;
     padding: 8px 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
