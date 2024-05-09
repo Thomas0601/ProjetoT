@@ -9,32 +9,21 @@ body {
     background-color: #fafbfc;
 }
 
-
-
-
-    #cabeca {
-        position: fixed; /* Define a posição fixa */
-        top: 0; /* Coloca o cabeçalho no topo da página */
-        width: 100%; /* Define a largura total */
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px 20px;
-        background-color: #006cb4;
-        color: #fff;
-        font-size: 18px; /* Aumenta o tamanho da fonte */
-    }
-    
-    #logo {
-        font-size: 24px;
-        font-weight: bold;
-    }
-
-h2 {
-    color: #006cb4;
+header {
+    background-color: #00082e;
+    color: white;
+    padding: 15px;
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 100px;
+    font-family: "Acme", sans-serif;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 1200px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    padding: -5px;
 }
 
 main {
@@ -54,12 +43,9 @@ main {
 }
 
 #botao {
-    border: none;
-    padding: 4px 15px;
-    border-radius: 5px;
-    cursor: pointer;
+    text-align: right; /* Alinha o botão à direita */
+    margin-top: 40px; /* Ajusta a posição verticalmente */
 }
-   
 
 #botao a {
     text-decoration: none;
