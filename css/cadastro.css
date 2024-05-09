@@ -11,7 +11,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #f0f0f0;
-    overflow: hidden; /* Remove a barra de rolagem */
+    
 }
 h2 {
     color: #006cb4;
