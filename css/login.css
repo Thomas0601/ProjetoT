@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: #006cb4;
+    background-color: #00082e;
     color: #fff;
     font-size: 18px; /* Aumenta o tamanho da fonte */
 }
@@ -43,7 +43,7 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
-    color:  #006cb4;/* Cor do texto */
+    color:  #00082e;/* Cor do texto */
 }
 
 label {
