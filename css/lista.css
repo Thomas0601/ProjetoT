@@ -1,63 +1,66 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* lista.css */
 
 body {
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #fafbfc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
     background-color: #00082e;
-    color: white;
-    padding: 15px;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    font-family: "Acme", sans-serif;
 }
 
 #logo {
     font-size: 24px;
     font-weight: bold;
-    margin-right: 1200px;
-    margin-top: 50px;
-    margin-bottom: -20px;
-    padding: -5px;
 }
 
-main {
-    padding: 30px;
-}
-
-.card {
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-top: 15px;
-    border-radius: 5px;
-}
-
-.lineInput {
-    margin-bottom: 10px;
+h1 {
+    font-size: 32px;
+    padding-bottom: 0%;
 }
 
 #botao {
-    text-align: right; /* Alinha o botão à direita */
-    margin-top: 40px; /* Ajusta a posição verticalmente */
+    text-align: center;
+    margin-top: 20px;
 }
 
 #botao a {
-    text-decoration: none;
+    background-color:#00082e;
     color: #fff;
-    font-weight: bold;
-    background-color: #4CAF50; /* Cor de fundo */
-    padding: 10px 20px; /* Aumenta o espaçamento interno */
+    padding: 10px 20px;
+    text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s; /* Transição suave */
-   
 }
 
 #botao a:hover {
-    background-color: #45a049; /* Altera a cor de fundo ao passar o mouse */
+    background-color: #01105a;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro p {
+    margin: 10px 0;
+}
+
+.cadastro p strong {
+    font-weight: bold;
+    margin-right: 10px;
 }
